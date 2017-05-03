@@ -3,8 +3,8 @@
     "name": "Jason Manshadi",
     "label": "Developer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03e/1ea/15eefd0.jpg",
-    "email": "placeholder@gmail.com",
-    "website": "-",
+    "email": "jason@jasononline.ca",
+    "website": "jasononline.ca",
     "summary": "I am an developer from C++ and Java origins, now focusing on adding wed development to my resume with personal projects listed below.",
     "location": {
       "city": "Vancouver",
@@ -13,12 +13,12 @@
     },
     "profiles": [{
       "network": "Resume Source",
-      "url": "http://github.com/sedouard/resume",
+      "url": "https://github.com/modernNeo/onlineResume",
       "username": "This Resume is built from this Github Repo"
     }, {
       "network": "Github",
       "username": "modernNeo",
-      "url": "https://github.com/mdernNeo"
+      "url": "https://github.com/modernNeo"
     }, {
       "network": "Side Projects",
       "url": "-"
