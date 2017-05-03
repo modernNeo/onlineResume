@@ -170,3 +170,8 @@ h4 span:first-child {
 		display: none;
 	}
 }
+ul.nav-pills {
+    top: 20 px;
+    position: fixed;
+}
+
