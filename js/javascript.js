@@ -8,8 +8,8 @@ function detectmob() {
         navigator.userAgent.match(/BlackBerry/i) ||
         navigator.userAgent.match(/Windows Phone/i)
     ) {
-        console.log("mobile");
+        return "mobile";
     } else {
-        console.log("desktop");
+        return "desktop";
     }
 }
