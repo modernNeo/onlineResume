@@ -20,556 +20,563 @@
     </style>
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy">
 
-    <header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-9 col-sm-push-3">
-                    <h1>
-                        Jason Manshadi
-                    </h1>
-                    <h2>
-                        Developer
-                    </h2>
+<body data-spy="scroll" data-target="#myScrollspy">
+    <nav id="menu">
+        <h2>Menu</h2>
+    </nav>
+    <main id="panel">
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9 col-sm-push-3">
+                        <h1>
+                            Jason Manshadi
+                        </h1>
+                        <h2>
+                            Developer
+                        </h2>
+                    </div>
                 </div>
             </div>
+            <button class="toggle-button">☰</button>
+            <h2>Panel</h2>
+        </header>
+    </main>
+    <script>document.querySelector('.toggle-button').addEventListener('click', function(){slideout.toggle();});</script>
+        <div id="navbar">
+            <nav class="col-sm-3" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
+                    <li><a href="#TechWork">Technical Work Experience</a></li>
+                    <li><a href="#TechProjects">Technical Projects</a></li>
+                    <li><a href="#PersonalProjects">Personal Projects</a></li>
+                    <li><a href="#nonTechWork">Non-Technical Work Experience</a></li>
+                    <li><a href="#education">Eduation</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
-    <p id="mobileAwareness"></p>
-    <!--<script type="text/javascript">detectmob()</script>-->
-    <div id="navbar">
-        <nav class="col-sm-3" id="myScrollspy">
-            <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#profiles">Profiles</a></li>
-                <li><a href="#TechWork">Technical Work Experience</a></li>
-                <li><a href="#TechProjects">Technical Projects</a></li>
-                <li><a href="#PersonalProjects">Personal Projects</a></li>
-                <li><a href="#nonTechWork">Non-Technical Work Experience</a></li>
-                <li><a href="#education">Eduation</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div id="content" class="container">
+        <div id="content" class="container">
 
-        <section id="contact" class="row">
-            <aside class="col-sm-3">
-                <h3>Contact</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <strong>Email</strong>
-                        <div class="email"><a href="mailto:jason@jasononline.ca">jason@jasononline.ca</a></div>
-                    </div>
-                    <div class="col-sm-6">
-                        <strong>Website</strong>
-                        <div class="website">
-                            <a href="http://jasononline.ca">jasononline.ca</a>
+            <section id="contact" class="row">
+                <aside class="col-sm-3">
+                    <h3>Contact</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <strong>Email</strong>
+                            <div class="email"><a href="mailto:jason@jasononline.ca">jason@jasononline.ca</a></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <strong>Website</strong>
+                            <div class="website">
+                                <a href="http://jasononline.ca">jasononline.ca</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="about" class="row">
-            <aside class="col-sm-3">
-                <h3>About</h3>
-            </aside>
-            <div class="col-sm-9">
-                <p>I am an developer from C++ and Java origins, now focusing on adding wed development to my resume with personal projects listed below.</p>
-            </div>
-        </section>
-        <section id="profiles" class="row">
-            <aside class="col-sm-3">
-                <h3>Profiles</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <strong class="network">
+            </section>
+            <section id="about" class="row">
+                <aside class="col-sm-3">
+                    <h3>About</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <p>I am an developer from C++ and Java origins, now focusing on adding wed development to my resume with personal projects listed below.</p>
+                </div>
+            </section>
+            <section id="profiles" class="row">
+                <aside class="col-sm-3">
+                    <h3>Profiles</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <strong class="network">
 						Resume Source
 					</strong>
-                        <div class="username">
-                            <div class="url">
-                                <a href="https://github.com/modernNeo/onlineResume">This Resume is built from this Github Repo</a>
+                            <div class="username">
+                                <div class="url">
+                                    <a href="https://github.com/modernNeo/onlineResume">This Resume is built from this Github Repo</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <strong class="network">
+                        <div class="col-sm-6">
+                            <strong class="network">
 						Github
 					</strong>
-                        <div class="username">
+                            <div class="username">
+                                <div class="url">
+                                    <a href="https://github.com/modernNeo">modernNeo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <strong class="network">
+						Side Projects
+					</strong>
                             <div class="url">
-                                <a href="https://github.com/modernNeo">modernNeo</a>
+                                <li class="bullet"><a href="http://ec2-52-3-227-202.compute-1.amazonaws.com">Chirp MeanStack Web App</a></li>
+                                <li class="bullet">This Page</li>
+                                <li class="bullet">InternetOfWasteBins</li>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <strong class="network">
-						Side Projects
-					</strong>
-                        <div class="url">
-                            <li class="bullet"><a href="http://ec2-52-3-227-202.compute-1.amazonaws.com">Chirp MeanStack Web App</a></li>
-                            <li class="bullet">This Page</li>
-                            <li class="bullet">InternetOfWasteBins</li>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="TechWork" class="row">
-            <aside class="col-sm-3">
-                <h3>Technical Work Experience</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>SAP Canada Inc.</span>
-                            <span class="date">
+            <section id="TechWork" class="row">
+                <aside class="col-sm-3">
+                    <h3>Technical Work Experience</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>SAP Canada Inc.</span>
+                                <span class="date">
 						2016-05-01 — 2016-12-31
 					</span>
-                        </h4>
-                        <div class="website pull-right">
-                            <a href="https://www.sap.com/canada/index.html">https://www.sap.com/canada/index.html</a>
+                            </h4>
+                            <div class="website pull-right">
+                                <a href="https://www.sap.com/canada/index.html">https://www.sap.com/canada/index.html</a>
+                            </div>
+                            <div class="position">
+                                Unix Systems Administrator
+                            </div>
+                            <div class="summary">
+                                <p>Responded to internal IT tickets raised and diagnosed issues regarding software and hardware issues with virtual and physical machines.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Became more familiar with UNIX and Linux operating systems</li>
+                                <li class="bullet">Assisted in the migration from NIS to LDAP directory services protocol</li>
+                                <li class="bullet">Troubleshooted issues with NIS and LDAP configurations on Linux and UNIX machines</li>
+                                <li class="bullet">Learned how to create and delete Solaris Zones from scratch and from a standard flar</li>
+                                <li class="bullet">Created Red Hat and SuSE templates for vSphere</li>
+                                <li class="bullet">Coordinated with HPe, IBM, and Oracle if servers went down and were facing hardware failures</li>
+                                <li class="bullet">Assisted in the maintenance outage with involved shutting down the Solaris, Red Hat, SuSE, AIX and HP-UX machines, bring them back up and deal with the software and hardware failures that arised</li>
+                            </ul>
                         </div>
-                        <div class="position">
-                            Unix Systems Administrator
-                        </div>
-                        <div class="summary">
-                            <p>Responded to internal IT tickets raised and diagnosed issues regarding software and hardware issues with virtual and physical machines.</p>
-                        </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Became more familiar with UNIX and Linux operating systems</li>
-                            <li class="bullet">Assisted in the migration from NIS to LDAP directory services protocol</li>
-                            <li class="bullet">Troubleshooted issues with NIS and LDAP configurations on Linux and UNIX machines</li>
-                            <li class="bullet">Learned how to create and delete Solaris Zones from scratch and from a standard flar</li>
-                            <li class="bullet">Created Red Hat and SuSE templates for vSphere</li>
-                            <li class="bullet">Coordinated with HPe, IBM, and Oracle if servers went down and were facing hardware failures</li>
-                            <li class="bullet">Assisted in the maintenance outage with involved shutting down the Solaris, Red Hat, SuSE, AIX and HP-UX machines, bring them back up and deal with the software and hardware failures that arised</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Ritchie Bros. Auctioneers</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Ritchie Bros. Auctioneers</span>
+                                <span class="date">
 						2014-09-01 — 2016-04-30
 					</span>
-                        </h4>
-                        <div class="website pull-right">
-                            <a href="https://www.rbauction.com/">https://www.rbauction.com/</a>
+                            </h4>
+                            <div class="website pull-right">
+                                <a href="https://www.rbauction.com/">https://www.rbauction.com/</a>
+                            </div>
+                            <div class="position">
+                                Systems Integrator
+                            </div>
+                            <div class="summary">
+                                <p>Customizes the development and production JIRA environments for individual project and team purposes.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Learned more Linux commands to be able to navigate the Red Hat Linux environment</li>
+                                <li class="bullet">Wrote a manual to allow for new users to use the SalesForce JIRA project and SalesForce Service Desk project</li>
+                                <li class="bullet">Learned how to add, remove and modify users on Windows Active Directory using PowerShell</li>
+                                <li class="bullet">Led upgrade process for JIRA environments which involved researching needed steps for upgrading, coordinating with multiple colleagues for setting up and testing the environment</li>
+                                <li class="bullet">Cleaned sales on Postgres Database which required contacting all departments and individual who used sales and customizing the cleaning script to take their sales into account</li>
+                                <li class="bullet">Created a PowerShell script for automating the process of creating user, activating users and deactivating uses in any specified Salesforce organization</li>
+                            </ul>
                         </div>
-                        <div class="position">
-                            Systems Integrator
-                        </div>
-                        <div class="summary">
-                            <p>Customizes the development and production JIRA environments for individual project and team purposes.</p>
-                        </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Learned more Linux commands to be able to navigate the Red Hat Linux environment</li>
-                            <li class="bullet">Wrote a manual to allow for new users to use the SalesForce JIRA project and SalesForce Service Desk project</li>
-                            <li class="bullet">Learned how to add, remove and modify users on Windows Active Directory using PowerShell</li>
-                            <li class="bullet">Led upgrade process for JIRA environments which involved researching needed steps for upgrading, coordinating with multiple colleagues for setting up and testing the environment</li>
-                            <li class="bullet">Cleaned sales on Postgres Database which required contacting all departments and individual who used sales and customizing the cleaning script to take their sales into account</li>
-                            <li class="bullet">Created a PowerShell script for automating the process of creating user, activating users and deactivating uses in any specified Salesforce organization</li>
-                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="TechProjects" class="row">
-            <aside class="col-sm-3">
-                <h3>Technical Projects</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Psychology Luci Picture Coder</span>
-                            <span class="date">
+            <section id="TechProjects" class="row">
+                <aside class="col-sm-3">
+                    <h3>Technical Projects</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Psychology Luci Picture Coder</span>
+                                <span class="date">
 						2017-04
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Created a program in Java for determing the usefullness of pictures taken by a webcam during each participant’s overnight run in the driving simulator.</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Created a program in Java for determing the usefullness of pictures taken by a webcam during each participant’s overnight run in the driving simulator.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Added requested functionality to Visual Basic version of program allowing for for NumericUpDown scale on program.</li>
+                                <li class="bullet">Ported the program to be cross-compatible with Windows and Mac by reimplementing it in Java</li>
+                                <li class="bullet">Used the swing library for Jframe as well as IO library to allow for saving data to file.</li>
+                                <li class="bullet">Created a jar file that can be used on both Windows and Mac</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Added requested functionality to Visual Basic version of program allowing for for NumericUpDown scale on program.</li>
-                            <li class="bullet">Ported the program to be cross-compatible with Windows and Mac by reimplementing it in Java</li>
-                            <li class="bullet">Used the swing library for Jframe as well as IO library to allow for saving data to file.</li>
-                            <li class="bullet">Created a jar file that can be used on both Windows and Mac</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Psychology Link Provider</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Psychology Link Provider</span>
+                                <span class="date">
 						2015-11
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Created a program for providing the necessary links implemented using Visual C# and Visual Basic to improve my efficiency during my Research Assistant position</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Created a program for providing the necessary links implemented using Visual C# and Visual Basic to improve my efficiency during my Research Assistant position</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Implemented a password verification system using visual basic's password textbox in order to provide a method for the user to re-enable clicked buttons</li>
+                                <li class="bullet">Added an output file using the C# IO library to provide a reference point to see which subjects did which parts of the test in what order</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Implemented a password verification system using visual basic's password textbox in order to provide a method for the user to re-enable clicked buttons</li>
-                            <li class="bullet">Added an output file using the C# IO library to provide a reference point to see which subjects did which parts of the test in what order</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Basic ChordDHT Implementer</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Basic ChordDHT Implementer</span>
+                                <span class="date">
 						2015-09 — 2015-12
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Implement tables and shortcuts to each assigned node based on the the Basic ChordDHT algorithm using C++ in Xcode</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Implement tables and shortcuts to each assigned node based on the the Basic ChordDHT algorithm using C++ in Xcode</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Imported the structure of the network by implementing file IO as well as following the agreed upon file format to set up the routing table and active nodes in the network</li>
+                                <li class="bullet">Debugged the network that was implemented with the classes and structs using a test program</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Imported the structure of the network by implementing file IO as well as following the agreed upon file format to set up the routing table and active nodes in the network</li>
-                            <li class="bullet">Debugged the network that was implemented with the classes and structs using a test program</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Space Invaders</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Space Invaders</span>
+                                <span class="date">
 						2013-05 — 2013-08
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>•Designed and implemented a space invaders game using structs in C++</p>
+                            </h4>
+                            <div class="summary">
+                                <p>•Designed and implemented a space invaders game using structs in C++</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Multithreaded the code to allow both the invaders and user characters to work at the same time</li>
+                                <li class="bullet">Was able to create an object that could be shared between two different processes through the use of address referencing to allow the same information to be used by both threads</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Multithreaded the code to allow both the invaders and user characters to work at the same time</li>
-                            <li class="bullet">Was able to create an object that could be shared between two different processes through the use of address referencing to allow the same information to be used by both threads</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Conpany Database</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Conpany Database</span>
+                                <span class="date">
 						2012-05 — 2012-08
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Created a company program using Java on eclipse to add, remove or modify employees</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Created a company program using Java on eclipse to add, remove or modify employees</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Created different buttons and Action Listeners in embedded classes to modify the employees</li>
+                                <li class="bullet">Made the database object oriented by coding a different class for the company, the employee and a separate one for manager to allow for code that is easier to understand and work with</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Created different buttons and Action Listeners in embedded classes to modify the employees</li>
-                            <li class="bullet">Made the database object oriented by coding a different class for the company, the employee and a separate one for manager to allow for code that is easier to understand and work with</li>
-                        </ul>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="PersonalProjects" class="row">
-            <aside class="col-sm-3">
-                <h3>Personal Projects</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Chirp MeanStack Web App</span>
-                            <span class="date">
+            </section>
+            <section id="PersonalProjects" class="row">
+                <aside class="col-sm-3">
+                    <h3>Personal Projects</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Chirp MeanStack Web App</span>
+                                <span class="date">
 						2017-04
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Coded a web app that can be used similar to twitter for announcements.</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Coded a web app that can be used similar to twitter for announcements.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Set up an AWS server with NGINX as well as how to configure the the root as well as connections and proxy_pass</li>
+                                <li class="bullet">Learned how to implement all aspects of a MEAN stack app</li>
+                                <li class="bullet">Included the passport node authentication module which required people to register and log in before making a post.</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Set up an AWS server with NGINX as well as how to configure the the root as well as connections and proxy_pass</li>
-                            <li class="bullet">Learned how to implement all aspects of a MEAN stack app</li>
-                            <li class="bullet">Included the passport node authentication module which required people to register and log in before making a post.</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>InternetofWasteBins</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>InternetofWasteBins</span>
+                                <span class="date">
 						2016-09 — 2016-11
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Created a backend controller file for interpreting data coming in from the front-end app</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Created a backend controller file for interpreting data coming in from the front-end app</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Learnt the basics of a backend MEAN stack app</li>
+                                <li class="bullet">Learnt how to send and recieve information to the backend of the app from the front-end of the web app</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Learnt the basics of a backend MEAN stack app</li>
-                            <li class="bullet">Learnt how to send and recieve information to the backend of the app from the front-end of the web app</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Folder Synchronizer</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Folder Synchronizer</span>
+                                <span class="date">
 						2015-05 — 2016-05
 					</span>
-                        </h4>
-                        <div class="summary">
-                            <p>Implemented a file synchronizer that uses bash script in order to run through the file lists and to provide a time scheduler so that the files can be correctly moved on a specified time interval</p>
+                            </h4>
+                            <div class="summary">
+                                <p>Implemented a file synchronizer that uses bash script in order to run through the file lists and to provide a time scheduler so that the files can be correctly moved on a specified time interval</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Organized the necessary information for each file such as date and time and name through awk script to provide the information needed for the c program</li>
+                                <li class="bullet">Go through the information that the AWK script provides with a c++ program that utilizes file IO to provide a list of all files that need to be moved by the bash script </li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Organized the necessary information for each file such as date and time and name through awk script to provide the information needed for the c program</li>
-                            <li class="bullet">Go through the information that the AWK script provides with a c++ program that utilizes file IO to provide a list of all files that need to be moved by the bash script </li>
-                        </ul>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="nonTechWork" class="row">
-            <aside class="col-sm-3">
-                <h3>Non-Technical Work Experience</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>SFU Psychology Department</span>
-                            <span class="date">
+            </section>
+            <section id="nonTechWork" class="row">
+                <aside class="col-sm-3">
+                    <h3>Non-Technical Work Experience</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>SFU Psychology Department</span>
+                                <span class="date">
 						2017-01-01 — Present
 					</span>
-                        </h4>
-                        <div class="position">
-                            Research Assistant for LUCI fatigue study
+                            </h4>
+                            <div class="position">
+                                Research Assistant for LUCI fatigue study
+                            </div>
+                            <div class="summary">
+                                <p>Ran participants through a sleep study designed to monitor the effects of fatigue on volunteers with a series of recurring steps tasks.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Ran each participant during a graveyard shift and ensured that all tasks were done correctly despite the late hour.</li>
+                                <li class="bullet">Created a PowerShell script used for converting the output of a headband designed to measure individual’s EEG readings to understandable csv format.</li>
+                                <li class="bullet">Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically</li>
+                                <li class="bullet">Created a program in Java for determing the usefullness of pictures taken by a webcam during each participant’s overnight run in the driving simulator.</li>
+                            </ul>
                         </div>
-                        <div class="summary">
-                            <p>Ran participants through a sleep study designed to monitor the effects of fatigue on volunteers with a series of recurring steps tasks.</p>
-                        </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Ran each participant during a graveyard shift and ensured that all tasks were done correctly despite the late hour.</li>
-                            <li class="bullet">Created a PowerShell script used for converting the output of a headband designed to measure individual’s EEG readings to understandable csv format.</li>
-                            <li class="bullet">Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically</li>
-                            <li class="bullet">Created a program in Java for determing the usefullness of pictures taken by a webcam during each participant’s overnight run in the driving simulator.</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>SFU Psychology Department</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>SFU Psychology Department</span>
+                                <span class="date">
 						2015-09-01 — 2016-04-30
 					</span>
-                        </h4>
-                        <div class="position">
-                            Research Assistant for Definition and Measurement of Social Competence Study
+                            </h4>
+                            <div class="position">
+                                Research Assistant for Definition and Measurement of Social Competence Study
+                            </div>
+                            <div class="summary">
+                                <p>Ran particpants through a study designed to determine the common themes associated with social competence.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Administered and answered any questions that the students had related to the study</li>
+                                <li class="bullet">Tested and supervised up to 6 students at any given time</li>
+                                <li class="bullet">Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically</li>
+                                <li class="bullet">Created a program for providing the necessary links implemented using Visual C# and Visual Studio to improve my efficiency during my Research Assistant position</li>
+                            </ul>
                         </div>
-                        <div class="summary">
-                            <p>Ran particpants through a study designed to determine the common themes associated with social competence.</p>
-                        </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Administered and answered any questions that the students had related to the study</li>
-                            <li class="bullet">Tested and supervised up to 6 students at any given time</li>
-                            <li class="bullet">Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically</li>
-                            <li class="bullet">Created a program for providing the necessary links implemented using Visual C# and Visual Studio to improve my efficiency during my Research Assistant position</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Langara College Bookstore</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Langara College Bookstore</span>
+                                <span class="date">
 						2013-07-01 — 2014-08-31
 					</span>
-                        </h4>
-                        <div class="position">
-                            Customer Assister
+                            </h4>
+                            <div class="position">
+                                Customer Assister
+                            </div>
+                            <div class="summary">
+                                <p>Helped first time students know what they needed to do for their first term in terms of where the offices they needed to go are.</p>
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Assisted first time students on how to register for courses and the way the waitlist worked</li>
+                                <li class="bullet">Helped students find out how they access their accounts and booklist</li>
+                                <li class="bullet">Explained to students the options in their booklist based on instruction by their professors</li>
+                                <li class="bullet">Due to a system error, 3,000+ students were dropped from courses and made our regular method of determining booklists ineffective, was able to find a workaround and teach it to other colleagues to help customers buy the required texts they needed for their courses</li>
+                            </ul>
                         </div>
-                        <div class="summary">
-                            <p>Helped first time students know what they needed to do for their first term in terms of where the offices they needed to go are.</p>
-                        </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Assisted first time students on how to register for courses and the way the waitlist worked</li>
-                            <li class="bullet">Helped students find out how they access their accounts and booklist</li>
-                            <li class="bullet">Explained to students the options in their booklist based on instruction by their professors</li>
-                            <li class="bullet">Due to a system error, 3,000+ students were dropped from courses and made our regular method of determining booklists ineffective, was able to find a workaround and teach it to other colleagues to help customers buy the required texts they needed for their courses</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Pars, Market, Bakery and Grill</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Pars, Market, Bakery and Grill</span>
+                                <span class="date">
 						2007-09-01 — 2011-07-31
 					</span>
-                        </h4>
-                        <div class="position">
-                            Waiter, Cashier, Stocker, Janitor and Fry-cooker
+                            </h4>
+                            <div class="position">
+                                Waiter, Cashier, Stocker, Janitor and Fry-cooker
+                            </div>
+                            <h4>Highlights</h4>
+                            <ul class="highlights">
+                                <li class="bullet">Took customer orders while answering any questions they had about the menu</li>
+                                <li class="bullet">Ensured that customers were always able to find what they needed</li>
+                                <li class="bullet">Learnt some Portuguese to be able to tend to Brazilian customers</li>
+                                <li class="bullet">Worked efficiently during the Soccer World Cup rush in the restaurant</li>
+                                <li class="bullet">Quickly wiped down tables and tended to customers paying their bills to ensure that incoming customers had a place to sit</li>
+                                <li class="bullet">Would often cater to 4-5 tables at once during hours when I was working alone.</li>
+                            </ul>
                         </div>
-                        <h4>Highlights</h4>
-                        <ul class="highlights">
-                            <li class="bullet">Took customer orders while answering any questions they had about the menu</li>
-                            <li class="bullet">Ensured that customers were always able to find what they needed</li>
-                            <li class="bullet">Learnt some Portuguese to be able to tend to Brazilian customers</li>
-                            <li class="bullet">Worked efficiently during the Soccer World Cup rush in the restaurant</li>
-                            <li class="bullet">Quickly wiped down tables and tended to customers paying their bills to ensure that incoming customers had a place to sit</li>
-                            <li class="bullet">Would often cater to 4-5 tables at once during hours when I was working alone.</li>
-                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="education" class="row">
-            <aside class="col-sm-3">
-                <h3>Education</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Simon Fraser University</span>
-                            <span class="date">
+            <section id="education" class="row">
+                <aside class="col-sm-3">
+                    <h3>Education</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Simon Fraser University</span>
+                                <span class="date">
 						2007-05-01 — Present
 					</span>
-                        </h4>
-                        <div class="area">
-                            Computer Science
+                            </h4>
+                            <div class="area">
+                                Computer Science
+                            </div>
+                            <div class="studyType">
+                                Bachelor
+                            </div>
                         </div>
-                        <div class="studyType">
-                            Bachelor
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <h4 class="strike-through">
-                            <span>Langara College</span>
-                            <span class="date">
+                        <div class="col-sm-12">
+                            <h4 class="strike-through">
+                                <span>Langara College</span>
+                                <span class="date">
 						2011-09-01 — 2015-06-04
 					</span>
-                        </h4>
-                        <div class="area">
-                            Computer Science
-                        </div>
-                        <div class="studyType">
-                            Associates
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <section id="skills" class="row">
-            <aside class="col-sm-3">
-                <h3>Skills</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="name">
-                            <h4>Object-Oriented Languages</h4>
-                        </div>
-                        <ul class="keywords">
-                            <li>C++</li>
-                            <li>C</li>
-                            <li>Java</li>
-                            <li>C#</li>
-                            <li>Java</li>
-                            <li>.NET</li>
-                            <li>Objective-C</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="name">
-                            <h4>Scripting Languages</h4>
-                        </div>
-                        <ul class="keywords">
-                            <li>Bash</li>
-                            <li>Perl</li>
-                            <li>AWK</li>
-                            <li>Powershell</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="name">
-                            <h4>Web Applications</h4>
-                        </div>
-                        <ul class="keywords">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Ruby on Rails</li>
-                            <li>MEAN stack</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="name">
-                            <h4>Programs</h4>
-                        </div>
-                        <ul class="keywords">
-                            <li>Microsoft Office</li>
-                            <li>Eclipse</li>
-                            <li>Xcode</li>
-                            <li>Visual Studio</li>
-                            <li>PowerShell ISE</li>
-                            <li>PuTTY</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="name">
-                            <h4>Operating Systems</h4>
-                        </div>
-                        <ul class="keywords">
-                            <li>Mac</li>
-                            <li>Windows</li>
-                            <li>Linux</li>
-                            <li>UNIX</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="languages" class="row">
-            <aside class="col-sm-3">
-                <h3>Languages</h3>
-            </aside>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="language">
-                            <strong>English</strong>
-                        </div>
-                        <div class="fluency">
-                            Native speaker
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="language">
-                            <strong>Faris (Persian)</strong>
-                        </div>
-                        <div class="fluency">
-                            Conversational
+                            </h4>
+                            <div class="area">
+                                Computer Science
+                            </div>
+                            <div class="studyType">
+                                Associates
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
 
-    </div>
+            <section id="skills" class="row">
+                <aside class="col-sm-3">
+                    <h3>Skills</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="name">
+                                <h4>Object-Oriented Languages</h4>
+                            </div>
+                            <ul class="keywords">
+                                <li>C++</li>
+                                <li>C</li>
+                                <li>Java</li>
+                                <li>C#</li>
+                                <li>Java</li>
+                                <li>.NET</li>
+                                <li>Objective-C</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="name">
+                                <h4>Scripting Languages</h4>
+                            </div>
+                            <ul class="keywords">
+                                <li>Bash</li>
+                                <li>Perl</li>
+                                <li>AWK</li>
+                                <li>Powershell</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="name">
+                                <h4>Web Applications</h4>
+                            </div>
+                            <ul class="keywords">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Ruby on Rails</li>
+                                <li>MEAN stack</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="name">
+                                <h4>Programs</h4>
+                            </div>
+                            <ul class="keywords">
+                                <li>Microsoft Office</li>
+                                <li>Eclipse</li>
+                                <li>Xcode</li>
+                                <li>Visual Studio</li>
+                                <li>PowerShell ISE</li>
+                                <li>PuTTY</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="name">
+                                <h4>Operating Systems</h4>
+                            </div>
+                            <ul class="keywords">
+                                <li>Mac</li>
+                                <li>Windows</li>
+                                <li>Linux</li>
+                                <li>UNIX</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="languages" class="row">
+                <aside class="col-sm-3">
+                    <h3>Languages</h3>
+                </aside>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="language">
+                                <strong>English</strong>
+                            </div>
+                            <div class="fluency">
+                                Native speaker
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="language">
+                                <strong>Faris (Persian)</strong>
+                            </div>
+                            <div class="fluency">
+                                Conversational
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </div>
+    </main>
 
 </body>
 
