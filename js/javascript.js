@@ -8,9 +8,10 @@ function detectmob() {
         navigator.userAgent.match(/BlackBerry/i) ||
         navigator.userAgent.match(/Windows Phone/i)
     ) {
-        myScrollspy.display = false;
+        
         document.getElementById("mobileAwareness").innerHTML = "mobile";
     } else {
+        myScrollspy.display = false;
         document.getElementById("mobileAwareness").innerHTML =  "desktop";
     }
 }
