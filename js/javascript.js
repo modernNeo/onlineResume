@@ -8,8 +8,8 @@ function detectmob() {
         navigator.userAgent.match(/BlackBerry/i) ||
         navigator.userAgent.match(/Windows Phone/i)
     ) {
-        return "mobile";
+        document.getElementById("mobileAwareness").innerHTML = "mobile";
     } else {
-        return "desktop";
+        document.getElementById("mobileAwareness").innerHTML =  "desktop";
     }
 }
