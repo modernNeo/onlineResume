@@ -12,12 +12,7 @@ window.onload = function () {
             navigator.userAgent.match(/BlackBerry/i) ||
             navigator.userAgent.match(/Windows Phone/i)
         ) {
-
-            document.getElementById("mobileAwareness").innerHTML = "mobile";
-
-        } else {
-            document.getElementById("mobileAwareness").innerHTML = "desktop";
-            document.getElementById("navbar").hidden = false;
+            document.getElementById("navbar").hidden = true;
         }
     }
 }
