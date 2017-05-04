@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/stylesheets.css">
     <script src="js/javascript.js"></script>
     <script src="js/slideout.min.js"></script>
-    <script src="js/slideout.js"></script>
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
@@ -46,6 +45,14 @@
         </header>
     </main>
     <script>
+        var slideout = new Slideout({
+            'panel': document.getElementById('panel'),
+            'menu': document.getElementById('menu'),
+            'padding': 256,
+            'tolerance': 70
+        });
+
+        // Toggle button
         document.querySelector('.toggle-button').addEventListener('click', function() {
             slideout.toggle();
         });
