@@ -610,11 +610,11 @@
         if (!expr) throw new Error(msg || 'failed');
       }
     </script>
-    <script src="../dist/slideout.js"></script>
+    <script src="js/slideout.js"></script>
     <script src="test.js"></script>
     <script>
       window.onload = function() {
-        document.querySelector('.js-slideout-toggle').addEventListener('click', function() {
+        document.querySelector('.toggle-button').addEventListener('click', function() {
           slideout.toggle();
         });
         document.querySelector('.menu').addEventListener('click', function(eve) {
