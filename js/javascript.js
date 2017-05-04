@@ -10,8 +10,9 @@ function detectmob() {
     ) {
         
         document.getElementById("mobileAwareness").innerHTML = "mobile";
+        
     } else {
-        myScrollspy.display = false;
         document.getElementById("mobileAwareness").innerHTML =  "desktop";
+        document.getElementById("navbar").hidden=false;
     }
 }
