@@ -57,7 +57,7 @@ server {
   }
 }
 ```
-[Nginx Reference Page](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04)
-UFW Reference Pages
-[Ubuntu](https://help.ubuntu.com/community/UFW)
-[Debian](https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29)
+[Nginx Reference Page](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04)  
+UFW Reference Pages  
+[Ubuntu](https://help.ubuntu.com/community/UFW)  
+[Debian](https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29)  
