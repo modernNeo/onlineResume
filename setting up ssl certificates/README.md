@@ -57,6 +57,10 @@ server {
   }
 }
 ```
+```shell
+sudo systemctl restart nginx #restarting nginx to allow changes to take effect
+systemctl status nginx.service #checking status of nginx
+```
 [Nginx Reference Page](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04)  
 UFW Reference Pages  
  * [Ubuntu](https://help.ubuntu.com/community/UFW)  
