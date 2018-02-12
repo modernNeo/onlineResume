@@ -13,7 +13,6 @@ sudo ufw status
 
 ## Step 2: Generate a CSR
 Steps were pulled off of this site: [Namecheap Documentation](https://www.namecheap.com/support/knowledgebase/article.aspx/467/67/how-do-i-generate-a-csr-code)  
-
 Specifically from this page: [NameCheap Documentation for AWS Instances](https://www.namecheap.com/support/knowledgebase/article.aspx/9592/0/aws)
 ```shell
 sudo apt-get install -y openssl
