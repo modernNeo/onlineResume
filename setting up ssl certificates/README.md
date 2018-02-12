@@ -12,8 +12,8 @@ sudo ufw status
 ```
 
 ## Step 2: Generate a CSR
-Steps were pulled off of this site: [Namecheap Documentation](https://www.namecheap.com/support/knowledgebase/article.aspx/467/67/how-do-i-generate-a-csr-code)
-Specifically from this page: [NameCheao Documentation for AWS Instances](https://www.namecheap.com/support/knowledgebase/article.aspx/9592/0/aws)
+Steps were pulled off of this site: [Namecheap Documentation](https://www.namecheap.com/support/knowledgebase/article.aspx/467/67/how-do-i-generate-a-csr-code)  
+Specifically from this page: [NameCheap Documentation for AWS Instances](https://www.namecheap.com/support/knowledgebase/article.aspx/9592/0/aws)
 ```shell
 sudo apt-get install -y openssl
 openssl genrsa 2048 > jasononline-private-key.pem
@@ -23,7 +23,7 @@ openssl req -new -key jasononline-private-key.pem -out csr.pem
 ## Step 3: Buy a Certificate
 You will need to shop for a certificate online, a common choice is namecheap, you can look at prices here: [https://www.namecheap.com/security/ssl-certificates.aspx](https://www.namecheap.com/security/ssl-certificates.aspx)  
   
-## Step 4: Activting/Installing the Certificate
+## Step 4: Activating/Installing the Certificate
 [Instructions from Namecheap for how to complete the domain control validation (DCV) for my SSL certificate](https://www.namecheap.com/support/knowledgebase/article.aspx/9637/68/how-can-i-complete-the-domain-control-validation-dcv-for-my-ssl-certificate)  
   
 ## Step 5: Updating Nginx to use HTTPS  
@@ -32,7 +32,7 @@ You will need to shop for a certificate online, a common choice is namecheap, yo
   
 ### Commands
 ```shell
-sudo vim /etc/nginx/sites-available/default
+sudo vim /etc/nginx/sites-available/default #Editing the Nginx virtual hosts file
 ```
 ```
 server {
