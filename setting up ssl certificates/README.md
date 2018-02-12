@@ -3,19 +3,22 @@
 [Basic Overall Steps to Follow](http://www.howto-expert.com/how-to-get-https-setting-up-ssl-on-your-website/)
 
 ## Step 1: Install Nginx as the Web Server
+```shell
 apt-get install -y nginx
 sudo ufw allow "Nginx HTTPS"
 sudo ufw allow "Nginx HTTP"
 sudo ufw allow ssh
 sudo ufw status
-
+```
 
 ## Step 2: Generate a CSR
-Steps were pulled off of this site: https://www.namecheap.com/support/knowledgebase/article.aspx/467/67/how-do-i-generate-a-csr-code
-Specifically from this page: https://www.namecheap.com/support/knowledgebase/article.aspx/9592/0/aws
+Steps were pulled off of this site: [Namecheap Documentation](https://www.namecheap.com/support/knowledgebase/article.aspx/467/67/how-do-i-generate-a-csr-code)
+Specifically from this page: [NameCheao Documentation for AWS Instances](https://www.namecheap.com/support/knowledgebase/article.aspx/9592/0/aws)
+```shell
 sudo apt-get install -y openssl
 openssl genrsa 2048 > jasononline-private-key.pem
 openssl req -new -key jasononline-private-key.pem -out csr.pem
+```
 
 ## Step 3: Buy a Certificate
 You will need to shop for a certificate online, a common choice is namecheap, you can look at prices here: [https://www.namecheap.com/security/ssl-certificates.aspx](https://www.namecheap.com/security/ssl-certificates.aspx)  
@@ -28,7 +31,10 @@ You will need to shop for a certificate online, a common choice is namecheap, yo
 [Reference Page for redirecting HTTP to HTTPS](https://www.digitalocean.com/community/questions/best-way-to-configure-nginx-ssl-force-http-to-redirect-to-https-force-www-to-non-www-on-serverpilot-free-plan-by-using-nginx-configuration-file-only)
   
 ### Commands
+```shell
 sudo vim /etc/nginx/sites-available/default
+```
+```
 server {
   listen 80 default_server;
   listen [::]:80 default_server;
@@ -50,7 +56,7 @@ server {
     try_files $uri $uri/ =404;
   }
 }
-
+```
 [Nginx Reference Page](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04)
 UFW Reference Pages
 [Ubuntu](https://help.ubuntu.com/community/UFW)
