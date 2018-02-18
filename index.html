@@ -18,12 +18,8 @@
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
     <script src="js/javascript.js"></script>
-    <style type="text/css">
-        @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-
-    </style>
-</head>
-$(document).ready(function () {
+    <script>
+        $(document).ready(function () {
         var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
         if (window.location.hash && isChrome) {
             setTimeout(function () {
@@ -33,6 +29,13 @@ $(document).ready(function () {
             }, 300);
         }
     });
+    </script>
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+    </style>
+</head>
+
 <body data-spy="scroll" data-target="#myScrollspy">
     <header id="header">
         <div class="container">
