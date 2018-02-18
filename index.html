@@ -18,18 +18,6 @@
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/jquery-func.js"></script>
     <script src="js/javascript.js"></script>
-    <script>
-        $(document).ready(function () {
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (window.location.hash && isChrome) {
-            setTimeout(function () {
-                var hash = window.location.hash;
-                window.location.hash = "";
-                window.location.hash = hash;
-            }, 300);
-        }
-    });
-    </script>
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
@@ -60,7 +48,7 @@
                 <li><a href="#profiles" class="smoothScroll">Profiles</a></li>
                 <li><a href="#TechWork" class="smoothScroll">Technical Work Experience</a></li>
                 <li><a href="#TechProjects" class="smoothScroll">Technical Projects</a></li>
-                <li><a href="#PersonalProjects" class="smoothScroll">Personal Projects</a></li>
+                <li><a href="#PersonalProjects" class="smoothScroll"><p>Personal Projects</p></a></li>
                 <li><a href="#education" class="smoothScroll">Eduation</a></li>
                 <li><a href="#skills" class="smoothScroll">Skills</a></li>
                 <li><a href="#nonTechWork" class="smoothScroll">Non-Technical Work Experience</a></li>
