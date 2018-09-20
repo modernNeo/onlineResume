@@ -10,23 +10,187 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 	
-	<!-- styleet sheets for basic page -->
-	<link rel="stylesheet" href="css/stylesheets_new.css">
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/1.13.0/mocha.min.css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/retina.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/jquery-func.js"></script>
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
 
-
-
+	</style>
+	
 	</head>
-	<body data-spy="scroll" data-target=".navbar">
+	<body>
 	
 	<header id="header">
 		<div class="container">
@@ -42,22 +206,6 @@
 			</div>
 		</div>
 	</header>
-    <div id="myNavbar">
-        <nav class="col-sm-3 navbar">
-            <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#profiles">Profiles</a></li>
-                <li><a href="#TechWork">Technical Work Experience</a></li>
-                <li><a href="#TechProjects">Technical Projects</a></li>
-                <li><a href="#PersonalProjects">Personal Projects</a></li>
-                <li><a href="#education">Eduation</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#nonTechWork">Non-Technical Work Experience</a></li>
-                <li><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
-    </div>
 	<div id="content" class="container">
 
 	<section id="contact" class="row">
@@ -68,12 +216,12 @@
 			<div class="row">
 			<div class="col-sm-6">
 				<strong>Email</strong>
-				<div class="email">jaymanshadi@gmail.com</div>
+				<div class="email">jason@jasononline.ca</div>
 			</div>
 			<div class="col-sm-6">
 				<strong>Website</strong>
 				<div class="website">
-					<a href="jacemanshadi.ca">jacemanshadi.ca</a>
+					<a href="jasononline.ca">jasononline.ca</a>
 				</div>
 			</div>
 			</div>
@@ -105,7 +253,7 @@
 				</div>
 				<div class="col-sm-6">
 					<strong class="network">
-						GitHub
+						Github
 					</strong>
 					<div class="username">
 						<div class="url">
@@ -118,7 +266,7 @@
 						Side Projects
 					</strong>
 						<div class="url">
-							<a href="http://ec2-52-3-227-202.compute-1.amazonaws.com/">http://ec2-52-3-227-202.compute-1.amazonaws.com/</a>
+							<a href="-">-</a>
 						</div>
 				</div>
 			</div>
@@ -131,31 +279,6 @@
 		</aside>
 		<div class="col-sm-9">
 			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>SAP Canada Inc.</span>
-					<span class="date">
-						2017-09-01 — 2018-04-27
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://www.sap.com/canada/index.html">https://www.sap.com/canada/index.html</a>
-				</div>
-				<div class="position">
-					Agile Developer
-				</div>
-				<div class="summary">
-					<p>Provided Solution for issues effecting external and internal customers</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Created a process that automated the installation of necessary programs, SDKs and repositories using Ansible which allowed the developers to spin up new virtual machines with minimal effort.</li>
-					<li class="bullet">Created a python script to allow indirect use of Ansible script for easier set-up of VMs from the command line which removed dependence of Ansible knowledge and Jenkins server as well as making it easier to run batch jobs.</li>
-					<li class="bullet">Updated existing python script to catch and report incorrect host entries on internal database to ensure that failing hosts could be identified in event of outages effecting production systems.</li>
-					<li class="bullet">Gained experience with Mockito and PowerMockito while writing Java Unit Tests to increase code coverage to over 80%.</li>
-					<li class="bullet">Participated in bi-weekly regression tests of ORCA’s “Import Data Connection” component to detect any final bugs that existed before ORCA was demoed for partners and customers.</li>
-				</ul>
-			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
 					<span>SAP Canada Inc.</span>
@@ -174,12 +297,12 @@
 				</div>
 				<h4>Highlights</h4>
 				<ul class="highlights">
-					<li class="bullet">Became more familiar with UNIX and Linux operating systems.</li>
-					<li class="bullet">Assisted in the migration from NIS to LDAP directory services protocol.</li>
-					<li class="bullet">Troubleshooted issues with NIS and LDAP configurations on Linux and UNIX machines.</li>
-					<li class="bullet">Created Red Hat and SuSE LDAP enabled templates for vSphere to replace existing NIS templates.</li>
-					<li class="bullet">Learned how to create and delete Solaris Zones from scratch and from a standard flar.</li>
-					<li class="bullet">Coordinated with HPe, IBM, and Oracle if servers went down and were facing hardware failures.</li>
+					<li class="bullet">Became more familiar with UNIX and Linux operating systems</li>
+					<li class="bullet">Assisted in the migration from NIS to LDAP directory services protocol</li>
+					<li class="bullet">Troubleshooted issues with NIS and LDAP configurations on Linux and UNIX machines</li>
+					<li class="bullet">Learned how to create and delete Solaris Zones from scratch and from a standard flar</li>
+					<li class="bullet">Created Red Hat and SuSE templates for vSphere</li>
+					<li class="bullet">Coordinated with HPe, IBM, and Oracle if servers went down and were facing hardware failures</li>
 					<li class="bullet">Assisted in the maintenance outage with involved shutting down the Solaris, Red Hat, SuSE, AIX and HP-UX machines, bring them back up and deal with the software and hardware failures that arised</li>
 				</ul>
 			</div>
@@ -201,68 +324,18 @@
 				</div>
 				<h4>Highlights</h4>
 				<ul class="highlights">
-					<li class="bullet">Administered and enhanced the JIRA installation to make it one of the company&#x27;s most-used IT service desk systems.</li>
-					<li class="bullet">Led upgrade process for JIRA environments which involved researching needed steps for upgrading, coordinating with multiple colleagues for setting up and testing the environment.</li>
-					<li class="bullet">Created a PowerShell script for automating the process of creating user, activating users and deactivating uses in any specified Salesforce organization</li>
-					<li class="bullet">Wrote a manual to allow for inexperienced users to use the SalesForce JIRA project and SalesForce Service Desk project.</li>
-					<li class="bullet">Cleaned sales on Postgres Database which required contacting all departments and individual who used sales and customizing the cleaning script to take their sales into account</li>
-					<li class="bullet">Created, configured, and maintained Linux virtual machines to for development and QA.</li>
-					<li class="bullet">Handled software and hardware inventories and improving the hardware management process to prevent future losses.</li>
+					<li class="bullet">Learned more Linux commands to be able to navigate the Red Hat Linux environment</li>
+					<li class="bullet">Wrote a manual to allow for new users to use the SalesForce JIRA project and SalesForce Service Desk project</li>
 					<li class="bullet">Learned how to add, remove and modify users on Windows Active Directory using PowerShell</li>
+					<li class="bullet">Led upgrade process for JIRA environments which involved researching needed steps for upgrading, coordinating with multiple colleagues for setting up and testing the environment</li>
+					<li class="bullet">Cleaned sales on Postgres Database which required contacting all departments and individual who used sales and customizing the cleaning script to take their sales into account</li>
+					<li class="bullet">Created a PowerShell script for automating the process of creating user, activating users and deactivating uses in any specified Salesforce organization</li>
 				</ul>
 			</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>SFU CSSS</span>
-					<span class="date">
-						2016-05-01 — 2020-04-30
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="Website: IN DEVELOPMENT">Website: IN DEVELOPMENT</a>
-				</div>
-				<div class="position">
-					CSSS Systems Administrator
-				</div>
-				<div class="summary">
-					<p>d multiple servers that were used by the CSSS as well as managing the Github and Google Drive.</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Greatly improved the process for setting up permissions for CSSS Executives on necessary services used by the CSSS</li>
-					<li class="bullet">Research and implemented a password management system to replace the old system being used.</li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>SFU CSSS</span>
-					<span class="date">
-						2016-05-01 — 2020-04-30
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="Website: IN DEVELOPMENT">Website: IN DEVELOPMENT</a>
-				</div>
-				<div class="position">
-					CSSS WebMaster
-				</div>
-				<div class="summary">
-					<p>Revamping the CSSS website </p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
 	
 	<section id="education" class="row">
 		<aside class="col-sm-3">
@@ -274,20 +347,15 @@
 				<h4 class="strike-through">
 					<span>Simon Fraser University</span>
 					<span class="date">
-						2015-05-01 — 2020-04-30
+						2007-05-01 — 
 					</span>
 				</h4>
 				<div class="area">
-					Computing Science
+					Computer Science
 				</div>
 				<div class="studyType">
 					Bachelor
 				</div>
-				<h4>Courses</h4>
-				<ul class="courses">
-					<li>DB1101 - Basic SQL</li>
-					<li>CS2011 - Java Introduction</li>
-				</ul>
 			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
@@ -323,10 +391,10 @@
 					<li>C++</li>
 					<li>C</li>
 					<li>Java</li>
-					<li>Golang</li>
 					<li>C#</li>
 					<li>Java</li>
 					<li>.NET</li>
+					<li>Objective-C</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
@@ -335,7 +403,6 @@
 				</div>
 				<ul class="keywords">
 					<li>Bash</li>
-					<li>Python</li>
 					<li>Perl</li>
 					<li>AWK</li>
 					<li>Powershell</li>
@@ -343,14 +410,27 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="name">
-					<h4>Web Languages</h4>
+					<h4>Web Applications</h4>
 				</div>
 				<ul class="keywords">
-					<li>Django</li>
-					<li>JavaScript</li>
-					<li>MEAN stack</li>
 					<li>HTML</li>
 					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Ruby on Rails</li>
+					<li>MEAN stack</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programs</h4>
+				</div>
+				<ul class="keywords">
+					<li>Microsoft Office</li>
+					<li>Eclipse</li>
+					<li>Xcode</li>
+					<li>Visual Studio</li>
+					<li>PowerShell ISE</li>
+					<li>PuTTY</li>
 				</ul>
 			</div>
 			<div class="col-sm-6">
@@ -394,30 +474,6 @@
 		</div>
 	</section>
 
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Computer Architecture</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Networking</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Comic-Book Enthusiast</h4>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
 	
 
 	</div>
