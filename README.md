@@ -7,21 +7,21 @@ I came upon a nice little npm tool called [resume-cli](https://github.com/jsonre
 
 Those extra things can be done like so
 
-1. `resume export index.html`
-1. Add the following to the css section
+ 1. `resume export index.html`
+ 1. Add the following to the css section
 ```css
 .stickyNav{
 	position: fixed;
 	float: left;
 }
 ```
-1. Add following JavaScript queries
+ 1. Add following JavaScript links
 ```javascript
 <!-- these two links are used to utilize the scrollspy with smooth scrolling -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 ```
-1. Add the following
+ 1. Add the following
 ```html
 		<nav class="stickyNav">
 			<div class="container-fluid">
@@ -52,7 +52,7 @@ and
 ```html
 <div id="content" class="container">
 ```
-1. Add the following
+ 1. Add the following
 ```html
 		</div>
 
