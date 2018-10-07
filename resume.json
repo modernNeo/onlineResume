@@ -3,9 +3,9 @@
     "name": "Jason Manshadi",
     "label": "Developer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03e/1ea/15eefd0.jpg",
-    "email": "jason@jasononline.ca",
-    "website": "jasononline.ca",
-    "summary": "I am an developer from C++ and Java origins, now focusing on adding wed development to my resume with personal projects listed below.",
+    "email": "jaymanshadi@gmail.com",
+    "website": "jacemanshadi.ca",
+    "summary": "I am a developer from C++ and Java origins, now focusing on adding web development to my resume with personal projects listed below.",
     "location": {
       "city": "Vancouver",
       "countryCode": "Canada",
@@ -14,17 +14,50 @@
     "profiles": [{
       "network": "Resume Source",
       "url": "https://github.com/modernNeo/onlineResume",
-      "username": "This Resume is built from this Github Repo"
+      "username": "This Resume is built from this GitHub Repo"
     }, {
-      "network": "Github",
+      "network": "GitHub",
       "username": "modernNeo",
       "url": "https://github.com/modernNeo"
-    }, {
+    },{
+      "network": "LinkedIn",
+      "username": "Jason Manshadi",
+      "url": "https://www.linkedin.com/in/jason-manshadi/"
+    },{
       "network": "Side Projects",
-      "url": "-"
+      "url": "http://ec2-52-3-227-202.compute-1.amazonaws.com/"
     }]
   },
-  "work": [{
+  "work": [
+    {
+      "company": "SAP Canada Inc.",
+      "position": "Agile Developer",
+      "website": "https://www.sap.com/canada/index.html",
+      "startDate": "2017-09-01",
+      "endDate": "2018-04-27",
+      "summary": "Provided Solution for issues effecting external and internal customers.",
+      "highlights": [
+        "Created a process that automated the installation of necessary programs, SDKs and repositories using Ansible which allowed the developers to spin up new virtual machines with minimal effort.",
+        "Created a python script to allow indirect use of Ansible script for easier set-up of VMs from the command line which removed dependence of Ansible knowledge and Jenkins server as well as making it easier to run batch jobs.",
+        "Updated existing python script to catch and report incorrect host entries on internal database to ensure that failing hosts could be identified in event of outages effecting production systems.",
+        "Gained experience with Mockito and PowerMockito while writing Java Unit Tests to increase code coverage to over 80%.",
+        "Participated in bi-weekly regression tests of ORCA’s “Import Data Connection” component to detect any final bugs that existed before ORCA was demoed for partners and customers."
+      ]
+    },
+    {
+      "company": "SFU Psychology Department",
+      "position": "Research Assistant for LUCI Fatigue Study",
+      "website": "https://www.sfu.ca/psychology.html",
+      "startDate": "2017-01-01",
+      "endDate": "2017-08-31",
+      "summary": "Ran participants through a sleep study designed to monitor the effects of fatigue on volunteers with a series of recurring steps tasks.",
+      "highlights": [
+        "Ran each participant during a graveyard shift and ensured that all tasks were done correctly despite the late hour.",
+        "Created a PowerShell script used for converting the output of a headband designed to measure individual’s EEG readings to understandable csv format.",
+        "Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically.",
+        "Created a program in Java for determining the usefulness of pictures taken by a webcam during each participant’s overnight run in the driving simulator."
+      ]
+    },{
     "company": "SAP Canada Inc.",
     "position": "Unix Systems Administrator",
     "website": "https://www.sap.com/canada/index.html",
@@ -35,12 +68,26 @@
         "Became more familiar with UNIX and Linux operating systems",
         "Assisted in the migration from NIS to LDAP directory services protocol",
         "Troubleshooted issues with NIS and LDAP configurations on Linux and UNIX machines",
+        "Created Red Hat and SuSE LDAP enabled templates for vSphere to replace existing NIS templates.",
         "Learned how to create and delete Solaris Zones from scratch and from a standard flar",
-        "Created Red Hat and SuSE templates for vSphere",
         "Coordinated with HPe, IBM, and Oracle if servers went down and were facing hardware failures",
         "Assisted in the maintenance outage with involved shutting down the Solaris, Red Hat, SuSE, AIX and HP-UX machines, bring them back up and deal with the software and hardware failures that arised"
     ]
-  },{
+  },
+    {
+      "company": "SFU Psychology Department",
+      "position": "Research Assistant for Definition and Measurement of Social Competence Study",
+      "website": "https://www.sfu.ca/psychology.html",
+      "startDate": "2015-09-01",
+      "endDate": "2016-04-30",
+      "summary": "Ran participants through a study designed to determine the common themes associated with social competence.",
+      "highlights": [
+        "Administered and answered any questions that the students had related to the study.",
+        "Tested and supervised up to 6 students at any given time",
+        "Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically",
+        "Created a program for providing the necessary links implemented using Visual C# and Visual Studio to improve my efficiency during my Research Assistant position"
+      ]
+    },{
     "company": "Ritchie Bros. Auctioneers",
     "position": "Systems Integrator",
     "website": "https://www.rbauction.com/",
@@ -49,18 +96,77 @@
     "summary": "Customizes the development and production JIRA environments for individual project and team purposes.",
     "highlights": [
             "Learned more Linux commands to be able to navigate the Red Hat Linux environment",
-            "Wrote a manual to allow for new users to use the SalesForce JIRA project and SalesForce Service Desk project",
-            "Learned how to add, remove and modify users on Windows Active Directory using PowerShell",
-            "Led upgrade process for JIRA environments which involved researching needed steps for upgrading, coordinating with multiple colleagues for setting up and testing the environment",
+            "Administered and enhanced the JIRA installation to make it one of the company's most-used IT service desk systems.",
+            "Led upgrade process for JIRA environments which involved researching needed steps for upgrading, coordinating with multiple colleagues for setting up and testing the environment.",
+            "Created a PowerShell script for automating the process of creating user, activating users and deactivating uses in any specified Salesforce organization",
+            "Wrote a manual to allow for inexperienced users to use the SalesForce JIRA project and SalesForce Service Desk project.",
             "Cleaned sales on Postgres Database which required contacting all departments and individual who used sales and customizing the cleaning script to take their sales into account",
-            "Created a PowerShell script for automating the process of creating user, activating users and deactivating uses in any specified Salesforce organization"
+            "Created, configured, and maintained Linux virtual machines to for development and QA.",
+            "Handled software and hardware inventories and improving the hardware management process to prevent future losses.",
+            "Learned how to add, remove and modify users on Windows Active Directory using PowerShell"
     ]
-  }],
+  },
+    {
+      "company": "Langara College Bookstore",
+      "position": "Customer Assister",
+      "website": "https://langara.ca/bookstore/",
+      "startDate": "2013-07-01",
+      "endDate": "2014-08-31",
+      "summary": "Helped first time students know what they needed to do for their first term in terms of where the offices they needed to go are.",
+      "highlights": [
+              "Assisted first time students on how to register for courses and the way the waitlist worked",
+              "Helped students find out how they access their accounts and booklist",
+              "Explained to students the options in their booklist based on instruction by their professors",
+              "Due to a system error, 3,000+ students were dropped from courses and made our regular method of determining booklists ineffective, was able to find a workaround and teach it to other colleagues to help customers buy the required texts they needed for their courses"
+      ]
+    },
+    {
+      "company": "Pars Market, Bakery and Grill",
+      "position": "IT, Waiter, Cashier, Stocker, Janitor and Fry-cooker",
+      "startDate": "2007-09-01",
+      "endDate": "2011-07-31",
+      "summary": "",
+      "highlights": [
+              "Took customer orders while answering any questions they had about the menu",
+              "Ensured that customers were always able to find what they needed",
+              "Learnt some Portuguese to be able to tend to Brazilian customers",
+              "Worked efficiently during the Soccer World Cup rush in the restaurant",
+              "Quickly wiped down tables and tended to customers paying their bills to ensure that incoming customers had a place to sit",
+              "Would often cater to 4-5 tables at once during hours when I was working alone."
+      ]
+    }],
+  "volunteer": [
+    {
+      "organization": "SFU CSSS",
+      "position": "CSSS Systems Administrator",
+      "website": "Website: IN DEVELOPMENT",
+      "startDate": "2016-05-01",
+      "endDate": "2020-04-30",
+      "summary": "Admined multiple servers that were used by the CSSS as well as managing the GitHub and Google Drive.",
+      "highlights": [
+        "Greatly improved the process for setting up permissions for CSSS Executives on necessary services used by the CSSS",
+        "Research and implemented a password management system to replace the old system being used."
+      ]
+    },
+{
+      "organization": "SFU CSSS",
+      "position": "CSSS Webmaster",
+      "website": "Website: IN DEVELOPMENT",
+      "startDate": "2016-05-01",
+      "endDate": "2020-04-30",
+      "summary": "Revamping the CSSS website "
+    }
+  ],
   "education": [{
     "institution": "Simon Fraser University",
-    "area": "Computer Science",
+    "area": "Computing Science",
     "studyType": "Bachelor",
-    "startDate": "2007-05-01"
+    "startDate": "2007-05-01",
+    "endDate": "2020-04-30",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
   },{
       "institution": "Langara College",
       "area": "Computer Science",
@@ -75,6 +181,7 @@
       "C++",
       "C",
       "Java",
+      "Golang",
         "C#",
         "Java",
         ".NET",
@@ -85,30 +192,30 @@
     "level": "Intermediate",
     "keywords": [
       "Bash",
+      "Python",
       "Perl",
       "AWK",
-        "Powershell"
+        "PowerShell"
     ]
   }, {
-    "name": "Web Applications",
+    "name": "Web Languages/Frameworks",
     "level": "Intermediate",
     "keywords": [
+      "Django",
+      "JavaScript",
+      "MEAN stack",
       "HTML",
       "CSS",
-      "JavaScript",
-        "Ruby on Rails",
-        "MEAN stack"
+      "Ruby on Rails"
     ]
   }, {
-    "name": "Programs",
-    "level": "Expert",
+    "name": "Testing Frameworks",
+    "level": "Intermediate",
     "keywords": [
-      "Microsoft Office",
-      "Eclipse",
-      "Xcode",
-        "Visual Studio",
-        "PowerShell ISE",
-        "PuTTY"
+      "Pytest",
+      "Go Test",
+      "Mockito",
+        "PowerMockito"
     ]
   }, {
     "name": "Operating Systems",
@@ -126,5 +233,16 @@
   }, {
     "language": "Faris (Persian)",
     "fluency": "Conversational"
-  }]
+  }],
+  "interests": [
+    {
+      "name": "Computer Architecture"
+    },
+    {
+      "name": "Networking"
+    },
+    {
+      "name": "Comic-Book Enthusiast"
+    }
+  ]
 }
