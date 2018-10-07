@@ -5,7 +5,7 @@
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/03e/1ea/15eefd0.jpg",
     "email": "jaymanshadi@gmail.com",
     "website": "jacemanshadi.ca",
-    "summary": "I am an developer from C++ and Java origins, now focusing on adding wed development to my resume with personal projects listed below.",
+    "summary": "I am a developer from C++ and Java origins, now focusing on adding web development to my resume with personal projects listed below.",
     "location": {
       "city": "Vancouver",
       "countryCode": "Canada",
@@ -14,7 +14,7 @@
     "profiles": [{
       "network": "Resume Source",
       "url": "https://github.com/modernNeo/onlineResume",
-      "username": "This Resume is built from this Github Repo"
+      "username": "This Resume is built from this GitHub Repo"
     }, {
       "network": "GitHub",
       "username": "modernNeo",
@@ -55,7 +55,7 @@
         "Ran each participant during a graveyard shift and ensured that all tasks were done correctly despite the late hour.",
         "Created a PowerShell script used for converting the output of a headband designed to measure individual’s EEG readings to understandable csv format.",
         "Created a script for emailing research participants using a script tailored to Solaris CLI to ensure that all the participants received a notification email automatically.",
-        "Created a program in Java for determing the usefullness of pictures taken by a webcam during each participant’s overnight run in the driving simulator."
+        "Created a program in Java for determining the usefulness of pictures taken by a webcam during each participant’s overnight run in the driving simulator."
       ]
     },{
     "company": "SAP Canada Inc.",
@@ -76,11 +76,11 @@
   },
     {
       "company": "SFU Psychology Department",
-      "position": "Research Assistant for Definition and Measuremnt of Social Competence Study",
+      "position": "Research Assistant for Definition and Measurement of Social Competence Study",
       "website": "https://www.sfu.ca/psychology.html",
       "startDate": "2015-09-01",
       "endDate": "2016-04-30",
-      "summary": "Ran particpants through a study designed to determine the common themes associated with social competence.",
+      "summary": "Ran participants through a study designed to determine the common themes associated with social competence.",
       "highlights": [
         "Administered and answered any questions that the students had related to the study.",
         "Tested and supervised up to 6 students at any given time",
@@ -123,8 +123,8 @@
     {
       "company": "Pars Market, Bakery and Grill",
       "position": "IT, Waiter, Cashier, Stocker, Janitor and Fry-cooker",
-      "startDate" : "2007-09-01",
-      "endDate" : "2011-07-31",
+      "startDate": "2007-09-01",
+      "endDate": "2011-07-31",
       "summary": "",
       "highlights": [
               "Took customer orders while answering any questions they had about the menu",
@@ -142,7 +142,7 @@
       "website": "Website: IN DEVELOPMENT",
       "startDate": "2016-05-01",
       "endDate": "2020-04-30",
-      "summary": "Admined multiple servers that were used by the CSSS as well as managing the Github and Google Drive.",
+      "summary": "Admined multiple servers that were used by the CSSS as well as managing the GitHub and Google Drive.",
       "highlights": [
         "Greatly improved the process for setting up permissions for CSSS Executives on necessary services used by the CSSS",
         "Research and implemented a password management system to replace the old system being used."
@@ -150,7 +150,7 @@
     },
 {
       "organization": "SFU CSSS",
-      "position": "CSSS WebMaster",
+      "position": "CSSS Webmaster",
       "website": "Website: IN DEVELOPMENT",
       "startDate": "2016-05-01",
       "endDate": "2020-04-30",
