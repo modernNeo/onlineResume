@@ -64,18 +64,18 @@ h4 span:first-child {
 	margin-bottom: 10px;
 }
 .col-sm-12 h4 {
-	margin-top: 12px; 
+	margin-top: 12px;
 }
 .col-sm-12 + .col-sm-12 {
 	margin-top: 30px;
 }
-#header {
+.header {
 	background: #f4f6f6;
 	padding: 50px 0;
 	margin-bottom: 30px;
-	/*z-index: 9999;/* this is used to show the header above all the other content on scroll*/
+	z-index: 9999;/* this is used to show the header above all the other content on scroll*/
 }
-/*
+
 .sticky{
 	position: fixed;
 	top: 100;
@@ -85,14 +85,14 @@ h4 span:first-child {
 .sticky + .content {
 	padding-top: : 102px;
 }
-*/
+
 .stickyNav{
 	position: fixed;
 	float: left;
 }
 
 
-#header h2 {
+.header h2 {
 	color: #95a5a6;
 	font-size: 24px;
 }
@@ -182,8 +182,8 @@ h4 span:first-child {
 	}
 	.strike-through span {
 		display: block;
-	}	
-	#header {
+	}
+	.header {
 		margin-bottom: 10px;
 		padding: 40px 0;
 	}
